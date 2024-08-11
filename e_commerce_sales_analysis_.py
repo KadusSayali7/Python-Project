@@ -7,15 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/13Eh7Mk-uz8mEPyaYJ1YSH5IwGvIUhO2A
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('/content/drive/MyDrive/E-Commerce sales/SuperStoreUS.csv')
+df = pd.read_csv('csv')
 df.head()
 
 df.info()
