@@ -9,6 +9,19 @@ Original file is located at
 
 #from google.colab import drive
 #drive.mount('/content/drive')
+import subprocess
+import sys
+
+# Function to install a package
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Install required packages
+install("pandas")
+install("numpy")
+install("matplotlib")
+install("seaborn")
+
 
 import pandas as pd
 import numpy as np
