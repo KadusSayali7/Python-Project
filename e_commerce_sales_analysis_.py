@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('csv')
+df = pd.read_csv('SuperStoreUS.csv')
 df.head()
 
 df.info()
